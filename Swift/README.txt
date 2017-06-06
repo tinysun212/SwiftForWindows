@@ -6,7 +6,7 @@ What is this?
 
 Install
 -------
-- Download and extract the binary [swift-mingw-20170531-bin.7z](https://github.com/tinysun212/swift-windows/releases/download/swift-mingw-20170531/swift-mingw-20170531-bin.7z).
+- Download and extract the binary [swift-mingw-20170606-bin.7z](https://github.com/tinysun212/swift-windows/releases/download/swift-mingw-20170606/swift-mingw-20170606-bin.7z).
 - Add the following directories to the environment variable PATH
   1) <extracted folder>\swift\bin
   2) <extracted folder>\swift\mingw64\bin
@@ -29,5 +29,5 @@ How to run your Swift code
 Notice
 ------
 - `Foundation module` is not included. It will be uploaded separately if prepared. (Check update in https://swiftforwindows.github.io/ )
-- Compiler Source: https://github.com/tinysun212/swift-windows/releases/tag/swift-mingw-20170531
+- Compiler Source: https://github.com/tinysun212/swift-windows/releases/tag/swift-mingw-20170606
    (based on: https://github.com/apple/swift/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2017-04-09-a)

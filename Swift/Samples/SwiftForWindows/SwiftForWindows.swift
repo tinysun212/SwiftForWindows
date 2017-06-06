@@ -227,15 +227,15 @@ func onSelectFile(_ event: Event) {
 }
 
 func onProjectLatestNews(_ event: Event) {
-  _ = wx.launchDefaultBrowser("https://swiftforwindows.codeplex.com/wikipage?title=News")
+  _ = wx.launchDefaultBrowser("https://swiftforwindows.github.io/news")
 }
 
 func onHelp(_ event: Event) {
-  _ = wx.launchDefaultBrowser("https://swiftforwindows.codeplex.com/wikipage?title=Help")
+  _ = wx.launchDefaultBrowser("https://swiftforwindows.github.io/help")
 }
 
 func onProjectWebsite(_ event: Event) {
-  _ = wx.launchDefaultBrowser("https://swiftforwindows.codeplex.com/")
+  _ = wx.launchDefaultBrowser("https://swiftforwindows.github.io/")
 }
 
 func onEnterLinkButton(_ event: Event) {

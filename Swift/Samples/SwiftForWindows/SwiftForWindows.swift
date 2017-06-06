@@ -314,7 +314,6 @@ func onRun(_ event: Event) {
   log_textctrl.clear()
   if run_in_new_window {
     let run_command = "cmd /C start /wait cmd /K" + " \"cd C:\\&\"" + swift_out_exe + "\"\""
-    _ = wx.MessageDialog(frame, run_command, "Run", style:wx.OK).showModal()
     _ = wx.executeOutErr(run_command)
   } else {
     let run_command = "cmd /C \"" + swift_out_exe + "\""

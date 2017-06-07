@@ -1,4 +1,4 @@
 @echo off
 
-call %~dp0Swift\setPath.bat
+call "%~dp0setPath.bat"
 start "" "%~dp0SwiftForWindows"

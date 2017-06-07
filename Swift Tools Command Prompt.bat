@@ -1,6 +1,6 @@
 @echo off
 
-call %~dp0Swift\setPath.bat
+call "%~dp0setPath.bat"
 
 TITLE Swift Tools Command Prompt
 echo.
